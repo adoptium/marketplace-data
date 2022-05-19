@@ -26,12 +26,6 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-
-      - name: Setup RSA Key
-        env:
-          TEMURIN_RSA_PRIVATE: ${{ secrets.TEMURIN_RSA_PRIVATE }}
-        run: echo "$TEMURIN_RSA_PRIVATE" > private.pem
-        working-directory: api/marketplace/exampleRepositories/keys
         
       - name: Build API
         run: ./mvnw -DskipTests --batch-mode clean install -Padoptium
@@ -42,6 +36,8 @@ jobs:
         working-directory: api/marketplace
         
       - name: Generate JSON data
+        env:
+          KEY: ${{ secrets.TEMURIN_RSA_PRIVATE }}
         run: ../../mvnw test -Dtest=ExtractAdoptiumReleases
         working-directory: api/marketplace/adoptium-marketplace-utils
         
