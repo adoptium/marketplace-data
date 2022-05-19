@@ -28,15 +28,15 @@ jobs:
           distribution: 'temurin'
           
       - name: Setup RSA Key
-        run: echo ${{ secrets.TEMURIN_RSA_PRIVATE }} > private.pem
+        run: echo "${{ secrets.TEMURIN_RSA_PRIVATE }}" > private.pem
         working-directory: api/marketplace/exampleRepositories/keys
         
       - name: Build api
-        run: ./mvnw --batch-mode clean install -Padoptium
+        run: ./mvnw -DskipTests --batch-mode clean install -Padoptium
         working-directory: api
         
       - name: Build app
-        run: ../mvnw --batch-mode clean install
+        run: ../mvnw -DskipTests --batch-mode clean install
         working-directory: api/marketplace
         
       - name: Build app
