@@ -1,0 +1,68 @@
+# This GitHub action is designed to update the JSON data inside this repository
+
+name: Update Temurin JSON
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/checkout@v3
+        with:
+          repository: adoptium/api.adoptium.net
+          ref: marketplace
+          path: api
+
+      - uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          
+      - name: Setup RSA Key
+        run: echo ${{ secrets.TEMURIN_RSA_PRIVATE }} > private.pem
+        working-directory: api/marketplace/exampleRepositories/keys
+        
+      - name: Build api
+        run: ./mvnw --batch-mode clean install -Padoptium
+        working-directory: api
+        
+      - name: Build app
+        run: ../mvnw --batch-mode clean install
+        working-directory: api/marketplace
+        
+      - name: Build app
+        run: ../../mvnw test -Dtest=ExtractAdoptiumReleases
+        working-directory: api/marketplace/adoptium-marketplace-utils
+        
+      - name: Copy output JSON and .sign files before copying updated versions
+        run: |
+          # Remove all existing JSON and 
+          rm -r **/*.json **/*.sign
+          cp -R /tmp/adoptiumRepo/* .
+
+      - name: Check to see if JSON files have changed or not
+        run: |
+          DIFF=$(git status | grep *.json$ | wc -l |  tr -d '[:space:]')
+          echo "::set-output name=DIFF::$DIFF"
+        id: diff
+
+      - uses: gr2m/create-or-update-pull-request-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.ADOPTIUM_TEMURIN_BOT_TOKEN }}
+        if: steps.diff.outputs.DIFF != 0
+        with:
+          title: "Update Temurin JSON data"
+          body: "This is an automatically generated pull request, it will be automatically merged."
+          branch: "updater"
+          commit-message: "updater: automated json updates"
+          labels: automerge
+          author: "eclipse-temurin-bot <temurin-bot@eclipse.org>"
