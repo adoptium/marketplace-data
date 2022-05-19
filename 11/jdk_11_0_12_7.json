@@ -6,57 +6,6 @@
     "binaries" : [ {
       "os" : "linux",
       "architecture" : "x64",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_x64_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "22b1ee63de4f9a457ed307315a104880c447722872af493e047024a42824e695",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-01T13:50:01Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "mac",
-      "architecture" : "x64",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_x64_mac_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "46a7407646837ee1bc9d507951827821007a7fef9dcf44ac61bf798006622e36",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-01T13:50:05Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_mac_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "windows",
-      "architecture" : "x64",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_x64_windows_hotspot_11.0.12_7.zip",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_windows_hotspot_11.0.12_7.zip",
-        "sha265sum" : "66a1b30eaff6bb1df6f6b6290807499cc188589f80674f1f61e21a471d4660e2",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_windows_hotspot_11.0.12_7.zip.sha256.txt"
-      },
-      "timestamp" : "2021-08-01T13:50:10Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_x64_windows_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "x64",
       "image_type" : "jdk",
       "jvm_impl" : "hotspot",
       "package" : {
@@ -119,91 +68,6 @@
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
       "os" : "linux",
-      "architecture" : "x64",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_x64_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "190770580bb7e9e6f890ed77b4dae41c6d45a357c2392bed267503fcc41a788b",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-01T13:51:20Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "mac",
-      "architecture" : "x64",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_x64_mac_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_mac_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "9cfa0f0163237b8e70716a34bb6a9aec86d12a36c0b5e140d182c52dddd1caca",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_mac_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-01T13:51:23Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_mac_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "windows",
-      "architecture" : "x64",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.zip",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.zip",
-        "sha265sum" : "62c9632e4ed24436e15026c4d5d6af89248f762ad08cf5846c98c0f03709a6a7",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.zip.sha256.txt"
-      },
-      "timestamp" : "2021-08-01T13:51:27Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_x64_windows_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "aarch64",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_aarch64_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_aarch64_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "9000b68e04b949b2412472153d01c04f4df44e44c62378d2a2f802d6c9ca3442",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_aarch64_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-09T16:10:10Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_aarch64_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "ppc64le",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "8318bf70092b0968847701de57c6b2cfcea62c08a4afdb34367111100627a1a4",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-09T16:10:21Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64le_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
       "architecture" : "aarch64",
       "image_type" : "jdk",
       "jvm_impl" : "hotspot",
@@ -237,57 +101,6 @@
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.12_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
-      "os" : "linux",
-      "architecture" : "aarch64",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_aarch64_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_aarch64_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "455252251fd375aa382a25920c5604058494c08f4b2bdb27425c23dbbb23f890",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_aarch64_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-09T16:11:11Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_aarch64_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "ppc64le",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "69504407e9991badeca5af319fddadf7e00f34e7eb278ee3a92d1e985bee50ee",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-09T16:11:27Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64le_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "aix",
-      "architecture" : "ppc64",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "e724ac1d9df8fdbc4813cfd4f6357285a8bc0d6cefff52e80bd26e4e9991041d",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-12T18:03:46Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_ppc64_aix_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
       "os" : "aix",
       "architecture" : "ppc64",
       "image_type" : "jdk",
@@ -305,23 +118,6 @@
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.12_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
-      "os" : "aix",
-      "architecture" : "ppc64",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "d836ea894cdc5dc06b3d13a984d4d1724d1dae536c5be1894434554d94d5bcff",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-12T18:04:03Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_ppc64_aix_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
       "os" : "linux",
       "architecture" : "s390x",
       "image_type" : "jdk",
@@ -337,23 +133,6 @@
       "openjdk_scm_ref" : "jdk-11.0.12+7",
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "s390x",
-      "image_type" : "testimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-testimage_s390x_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "f1552bef21e9c0ddbf4f5c55e24e37e2dc6e8c8ea36e0a42b52e11c1e3efa821",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-08-12T18:05:37Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-testimage_s390x_linux_hotspot_11.0.12_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
       "os" : "windows",
@@ -548,40 +327,6 @@
       "openjdk_scm_ref" : "jdk-11.0.12+7",
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_arm_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "arm",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_arm_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "174ff28b1ca1c1734c959e4df665b4f0467a78ff8af17b477316a786b9fe93b3",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-09-15T12:17:11Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_arm_linux_hotspot_11.0.12_7.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "linux",
-      "architecture" : "s390x",
-      "image_type" : "debugimage",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.12_7.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.12_7.tar.gz",
-        "sha265sum" : "494f7694229b68397e30e6344dd2ec8c43ea9df926c75c39943af83f36a8d8a0",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.12_7.tar.gz.sha256.txt"
-      },
-      "timestamp" : "2021-09-15T12:17:54Z",
-      "scm_ref" : "jdk-11.0.12+7_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.12+7",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-debugimage_s390x_linux_hotspot_11.0.12_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
       "os" : "linux",
