@@ -45,8 +45,8 @@ jobs:
         
       - name: Copy output JSON and .sign files before copying updated versions
         run: |
-          # Remove all existing JSON and 
-          rm -r **/*.json **/*.sign
+          # Remove all existing JSON and signature files + api repo
+          rm -r **/*.json **/*.sign api
           cp -R /tmp/adoptiumRepo/* .
 
       - name: Check to see if JSON files have changed or not
