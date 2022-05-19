@@ -316,7 +316,7 @@
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
       "os" : "windows",
-      "architecture" : "x32",
+      "architecture" : "x86",
       "image_type" : "jdk",
       "jvm_impl" : "hotspot",
       "package" : {
@@ -356,7 +356,7 @@
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
       "os" : "windows",
-      "architecture" : "x32",
+      "architecture" : "x86",
       "image_type" : "jre",
       "jvm_impl" : "hotspot",
       "package" : {
