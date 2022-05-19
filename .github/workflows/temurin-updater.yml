@@ -49,7 +49,7 @@ jobs:
 
       - name: Check to see if JSON files have changed or not
         run: |
-          DIFF=$(git status | grep *.json$ | wc -l |  tr -d '[:space:]')
+          DIFF=$(git status | egrep ".*\.json$" | wc -l |  tr -d '[:space:]')
           echo "::set-output name=DIFF::$DIFF"
         id: diff
 
