@@ -1,0 +1,46 @@
+# This GitHub action is designed to update the JSON data inside this repository
+
+name: Validate Marketplace JSON
+
+# Controls when the workflow will run
+on:
+  workflow_call:
+    inputs:
+      public-key:
+        required: true
+        type: string
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/checkout@v3
+        with:
+          repository: adoptium/api.adoptium.net
+          ref: marketplace
+          path: api
+
+      - uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Build API
+        run: ./mvnw -DskipTests --batch-mode clean install -Padoptium
+        working-directory: api
+
+      - name: Build Marketplace
+        run: ../mvnw -DskipTests --batch-mode clean install
+        working-directory: api/marketplace
+
+      - name: Validate data
+        env:
+          ALLOW_FILE_BASED_URL: true
+          REPO_URL: file://${{ github.workspace }}/
+          REPO_KEY: ${{ inputs.public-key }}
+        run: ../../mvnw --batch-mode clean test
+        working-directory: api/marketplace/adoptium-marketplace-vendor-validation
