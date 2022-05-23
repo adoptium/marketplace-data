@@ -1,29 +1,13 @@
 # This GitHub action is designed to update the JSON data inside this repository
 
-name: Validate Temurin JSON
+name: Validate Marketplace JSON
 
 # Controls when the workflow will run
 on:
-  pull_request:
-    branches: [ main ]
   workflow_call:
     inputs:
       public-key:
-        default: |
-          -----BEGIN PUBLIC KEY-----
-          MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqZ2G5mM6rR9SMhReN8ak
-          1pB0xH6eR8SmxDfpVdnJPOoB2QZZfWxSn6oAC6eOBKWFEr1AOFckQjiapBx6wgBt
-          aqb3vdYG+lp7w1VyN3r8+0qIACOpMqkji8i7f1X+6H2U1iSREaaKChJESAZf4HVL
-          bHoBUE6MmRGsNmyDEmxN5bvlCweGQjeLPFHMtxTX3P3B6mF8SjbUme/ccjIXA29K
-          0U5YGHbRh1Lv8RFJyIao2r3gleTpsUp65UuOCifhC8tUSlhxXOMMXs418pqFUYSM
-          d/PiZ/qFx6TCaMOezjuYpL4qJ1w2TyZviIGLdgX17SfRB+4rZ5hsiic5qLgA/Gk0
-          d1dx+oznd7fmf+sr93pv1ehLun/dTCQIux2SS6NTmRuS8J/6abY62dV6fSUS+lyQ
-          KNELO6DQVgXk+Ua2ApSd0Blaas1i/OwycXSBV10J+zq6b3q904LVQNO6ttwjmYtM
-          1k9Mlu8ROsRsYUdelW6JGoc8NT3aKospBSkoXIFLEPQSvXDvI85HMyTDq79Ww3gU
-          cqpq3++M2zxXx3SlPV8VF7Ys0evBmMYjocoZ8Qojxc3yBEV/6234F/hUVFh+hPpv
-          DupAbwZvTVPqWFjX4KDmu11fY1FHUEG8E4QcQQzeyHWgcS7PHtheeUpSWCQwBwvT
-          uLdpv7hGSc3TSV/y8u+6Z0cCAwEAAQ==
-          -----END PUBLIC KEY-----
+        required: true
         type: string
 
 jobs:
