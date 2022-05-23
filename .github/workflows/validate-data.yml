@@ -38,7 +38,7 @@ jobs:
       - name: Validate data
         env:
           ALLOW_FILE_BASED_URL: true
-          REPO_URL: file://${GITHUB_WORKSPACE}/
+          REPO_URL: file://${{env.GITHUB_WORKSPACE}}/
           REPO_KEY: |
             -----BEGIN PUBLIC KEY-----
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqZ2G5mM6rR9SMhReN8ak
