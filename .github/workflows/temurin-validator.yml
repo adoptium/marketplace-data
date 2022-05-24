@@ -2,8 +2,8 @@ name: Validate Temurin JSON
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   call-adoptium-verifier:
