@@ -9,6 +9,9 @@ on:
       public-key:
         required: true
         type: string
+      json-path:
+        required: false
+        type: string
 
 jobs:
   validate:
@@ -41,7 +44,7 @@ jobs:
       - name: Validate data
         env:
           ALLOW_FILE_BASED_URL: true
-          REPO_URL: file://${{ github.workspace }}/
+          REPO_URL: file://${{ github.workspace }}/${{ inputs.json-path }}
           REPO_KEY: ${{ inputs.public-key }}
         run: ../../mvnw --batch-mode clean test
         working-directory: api/marketplace/adoptium-marketplace-vendor-validation
