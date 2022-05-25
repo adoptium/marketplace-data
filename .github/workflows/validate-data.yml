@@ -9,6 +9,9 @@ on:
       public-key:
         required: true
         type: string
+      signature-type:
+        required: true
+        type: string
       json-path:
         required: false
         type: string
@@ -44,6 +47,7 @@ jobs:
       - name: Validate data
         env:
           ALLOW_FILE_BASED_URL: true
+          REPO_SIGNATURE_TYPE: ${{ inputs.signature-type }}
           REPO_URL: file://${{ github.workspace }}/${{ inputs.json-path }}
           REPO_KEY: ${{ inputs.public-key }}
         run: ../../mvnw --batch-mode clean test
