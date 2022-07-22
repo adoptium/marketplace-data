@@ -1,0 +1,11 @@
+name: Pull Request auto-merge (Marketplace data)
+
+on:
+  pull_request:
+    types: [labeled]
+
+jobs:
+  automerge:
+    uses: adoptium/.github/.github/workflows/pr-auto-merge.yml@main
+    with:
+      allowed-author: eclipse-temurin-bot
