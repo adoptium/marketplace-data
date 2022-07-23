@@ -118,6 +118,78 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.4_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "ppc64le",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
+        "sha265sum" : "e80a0f6626bd28ea20c43524b3ab10af48b3789317aea5b7019c146fe6268d94",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sig"
+      },
+      "timestamp" : "2022-07-22T16:54:20Z",
+      "scm_ref" : "jdk-17.0.4+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.4+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "ppc64le",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
+        "sha265sum" : "a5d055cbdb1f8ef537afc66a6315e865646305420cb96ab08dc239074f88ad1d",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sig"
+      },
+      "timestamp" : "2022-07-22T16:54:24Z",
+      "scm_ref" : "jdk-17.0.4+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.4+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
+        "sha265sum" : "3b356512c955f2d1a66b714ab3acaad942d04f80603af7dcd56e1fe5baeaeeda",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sig"
+      },
+      "timestamp" : "2022-07-22T20:23:46Z",
+      "scm_ref" : "jdk-17.0.4+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.4+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
+        "sha265sum" : "9d5a1fc83b3e74efb25d1ec3767aa6d29e9439c46e5855cfbd59eff3e9978529",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sig"
+      },
+      "timestamp" : "2022-07-22T20:23:50Z",
+      "scm_ref" : "jdk-17.0.4+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.4+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
