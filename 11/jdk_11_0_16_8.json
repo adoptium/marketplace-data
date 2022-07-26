@@ -112,6 +112,13 @@
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.16_8.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.16_8.zip.sig"
       },
+      "installer" : [ {
+        "name" : "OpenJDK11U-jre_x64_windows_hotspot_11.0.16_8.msi",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.16_8.msi",
+        "sha265sum" : "a85c378bdc695800d041ba14dd0711677ff394772dea6b3cc03f67c91a823bab",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.16_8.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.16_8.msi.sig"
+      } ],
       "timestamp" : "2022-07-22T13:21:53Z",
       "scm_ref" : "jdk-11.0.16+8_adopt",
       "openjdk_scm_ref" : "jdk-11.0.16+8",
