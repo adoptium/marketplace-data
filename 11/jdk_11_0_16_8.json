@@ -405,56 +405,6 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.16_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "mac",
-      "architecture" : "aarch64",
-      "image_type" : "jdk",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tar.gz",
-        "sha265sum" : "abf9365c07797133874e18bc5da86a42833ceee71986addb59877f5efd23739c",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tar.gz.sha256.txt",
-        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tar.gz.sig"
-      },
-      "installer" : [ {
-        "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.pkg",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.pkg",
-        "sha265sum" : "7478f20b24db0c7904902fbaa2915943a9d9fd492d556d85a4cc83a802735ecb",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.pkg.sha256.txt",
-        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.pkg.sig"
-      } ],
-      "timestamp" : "2022-08-02T14:22:52Z",
-      "scm_ref" : "jdk-11.0.16+8_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.16+8",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.16_8.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "mac",
-      "architecture" : "aarch64",
-      "image_type" : "jre",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.tar.gz",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.tar.gz",
-        "sha265sum" : "5581660d969bde6ed4642ba5dbc4ed34170794e154cfeb43d9efbf24bd51d0bc",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.tar.gz.sha256.txt",
-        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.tar.gz.sig"
-      },
-      "installer" : [ {
-        "name" : "OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.pkg",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.pkg",
-        "sha265sum" : "2a9628d5082a77bf74029cabd370d9a42622987bd9ac7f13349d64832ea17813",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.pkg.sha256.txt",
-        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.pkg.sig"
-      } ],
-      "timestamp" : "2022-08-02T14:23:03Z",
-      "scm_ref" : "jdk-11.0.16+8_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.16+8",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.16%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.16_8.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
