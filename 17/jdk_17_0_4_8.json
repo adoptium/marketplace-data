@@ -369,6 +369,56 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz",
+        "sha265sum" : "19fffac89c4b8c0b4da32cae2cbd864ad9e71875aa3ab69f3a5900b6b2e16e7b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg",
+        "sha265sum" : "632e8220e4a71f73c51fe518551d8a7919eea7943339e435cd6fd61f6089cf0d",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg.sig"
+      } ],
+      "timestamp" : "2022-08-02T14:26:43Z",
+      "scm_ref" : "jdk-17.0.4+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.4+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz",
+        "sha265sum" : "81d7cd6de1986e9afdac128e26386291eaf5d15e0521a10ec4021e2798fb6847",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg",
+        "sha265sum" : "3661dc8616cfe059597dbe2629e04c2b14f89daa37fcbd79572b1cbf62f4671a",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg.sig"
+      } ],
+      "timestamp" : "2022-08-02T14:26:54Z",
+      "scm_ref" : "jdk-17.0.4+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.4+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
