@@ -1,5 +1,5 @@
 {
   "schema_version" : "1.0.0",
   "indexes" : [ ],
-  "releases" : [ "jdk8u345_b01.json", "jdk8u345_b01.json", "jdk8u342_b07_1.json", "jdk8u342_b07.json", "jdk8u332_b09.json", "jdk8u322_b06.json" ]
+  "releases" : [ "jdk8u345_b01.json", "jdk8u345_b01.json", "jdk8u345_b01.json", "jdk8u342_b07_1.json", "jdk8u342_b07.json", "jdk8u332_b09.json", "jdk8u322_b06.json" ]
 }
