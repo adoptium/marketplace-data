@@ -419,6 +419,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jre_s390x_linux_hotspot_11.0.17_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.17_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.17_8.tar.gz",
+        "sha265sum" : "e0efdff83acb5279239aa1e7abd3522d4c85109954ccb0dd905367533e1dd3c7",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.17_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.17_8.tar.gz.sig"
+      },
+      "timestamp" : "2022-11-09T13:30:31Z",
+      "scm_ref" : "jdk-11.0.17+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.17+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.17_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jre_ppc64_aix_hotspot_11.0.17_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.17_8.tar.gz",
+        "sha265sum" : "ed03381139354db67ee8481dd46293222ba8fd3f524403086cc07431163869e5",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.17_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.17_8.tar.gz.sig"
+      },
+      "timestamp" : "2022-11-09T13:30:36Z",
+      "scm_ref" : "jdk-11.0.17+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.17+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.17%2B8/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.17_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
