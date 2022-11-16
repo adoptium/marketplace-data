@@ -405,6 +405,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jre_ppc64_aix_hotspot_8u352b08.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "solaris",
+      "architecture" : "sparcv9",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u352b08.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u352b08.tar.gz",
+        "sha265sum" : "b9b25f5bed419c5ab36c7a68693192e5022ec366acc0147df1fd45b18248a94a",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u352b08.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u352b08.tar.gz.sig"
+      },
+      "timestamp" : "2022-11-15T12:22:21Z",
+      "scm_ref" : "jdk8u352-b08_adopt",
+      "openjdk_scm_ref" : "jdk8u352-b08",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u352b08.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "solaris",
+      "architecture" : "sparcv9",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_sparcv9_solaris_hotspot_8u352b08.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jre_sparcv9_solaris_hotspot_8u352b08.tar.gz",
+        "sha265sum" : "94b6409c875d0a10fc64264b50a67d4c001abe8425ed86d0f6ecb9d0c9b218e9",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jre_sparcv9_solaris_hotspot_8u352b08.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jre_sparcv9_solaris_hotspot_8u352b08.tar.gz.sig"
+      },
+      "timestamp" : "2022-11-15T12:22:27Z",
+      "scm_ref" : "jdk8u352-b08_adopt",
+      "openjdk_scm_ref" : "jdk8u352-b08",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jre_sparcv9_solaris_hotspot_8u352b08.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
