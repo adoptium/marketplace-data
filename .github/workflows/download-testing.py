@@ -68,7 +68,7 @@ def process_package(package):
     checksum_response = requests.get(checksum_link)
     checksum_link_value = checksum_response.text.strip()
     # ensure that expected checksum is in the checksum file
-    assert expected_checksum in checksum_link_value
+    assert expected_checksum in checksum_link_value, "sha256sum doesn't match the sum defined in the sha256sum_link file"
     is_checksum_valid = validate_checksum(package["name"], expected_checksum)
 
     if is_checksum_valid:
