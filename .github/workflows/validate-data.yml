@@ -58,3 +58,38 @@ jobs:
           REPO_KEY: ${{ inputs.public-key }}
         run: ../../mvnw --batch-mode clean test
         working-directory: api/marketplace/adoptium-marketplace-vendor-validation
+
+  download-testing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+        with:
+          fetch-depth: 2
+
+      # get list of changed files
+      - name: Get list of changed files
+        id: changed-files
+        run: |
+          changed_files=$(git diff --diff-filter=AMR --name-only -r HEAD~1 HEAD)
+          # filter out all non json files
+          json_files=$(echo "$changed_files" | grep -E "\.json$" || true)
+          echo "files=$json_files" >> $GITHUB_OUTPUT
+
+      - uses: actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b # v4.6.0
+        if: steps.changed-files.outputs.files != ''
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        if: steps.changed-files.outputs.files != ''
+        run: pip install -r requirements.txt
+        working-directory: .github/workflows
+
+      - name: Download testing
+        if: steps.changed-files.outputs.files != ''
+        run: |
+          # loop through changed files
+          for file in $(echo ${{ steps.changed-files.outputs.files }} | tr " " "\n"); do
+            python download_testing.py "${file}"
+          done
+        working-directory: .github/workflows
