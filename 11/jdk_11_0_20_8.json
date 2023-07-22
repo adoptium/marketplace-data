@@ -76,42 +76,6 @@
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_linux_hotspot_11.0.20_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     }, {
-      "os" : "windows",
-      "architecture" : "x64",
-      "image_type" : "jdk",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip",
-        "sha265sum" : "3125b30276f4edfd6271d870d41061300adc33d7558b4151a35a11c84dd89d75",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip.sha256.txt",
-        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip.sig"
-      },
-      "timestamp" : "2023-07-20T18:23:13Z",
-      "scm_ref" : "jdk-11.0.20+8_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.20+8",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "windows",
-      "architecture" : "x64",
-      "image_type" : "jre",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip",
-        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip",
-        "sha265sum" : "06b88b61d85d069483d22ff4b0b8dbdfdb321bd55d8bbfe8e847980a2586b714",
-        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip.sha256.txt",
-        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip.sig"
-      },
-      "timestamp" : "2023-07-20T18:23:03Z",
-      "scm_ref" : "jdk-11.0.20+8_adopt",
-      "openjdk_scm_ref" : "jdk-11.0.20+8",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.tap.zip",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
       "os" : "linux",
       "architecture" : "ppc64le",
       "image_type" : "jre",
@@ -197,6 +161,142 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_mac_hotspot_11.0.20_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip",
+        "sha265sum" : "3125b30276f4edfd6271d870d41061300adc33d7558b4151a35a11c84dd89d75",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.msi",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.msi",
+        "sha265sum" : "ff55a265c41cc2525f87dd3790f469a074a5e196c2354c28a9f553420bdc4468",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.msi.sig"
+      } ],
+      "timestamp" : "2023-07-21T15:48:50Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_windows_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip",
+        "sha265sum" : "06b88b61d85d069483d22ff4b0b8dbdfdb321bd55d8bbfe8e847980a2586b714",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.msi",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.msi",
+        "sha265sum" : "7756baf3708aaae99da7499b1bab4344817aa28069d58cb0b4d5140dc3f73018",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.msi.sig"
+      } ],
+      "timestamp" : "2023-07-21T15:48:41Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_windows_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.tar.gz",
+        "sha265sum" : "46bccb356dba38bf463ea2cc5a8d27ed4e5a51680a7a932f78d5e0c4f8af7c54",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.pkg",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.pkg",
+        "sha265sum" : "d023cb6055a142ee3f84d056316b52910a068019cce6fbf6535628d5697dfdcd",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.pkg.sig"
+      } ],
+      "timestamp" : "2023-07-21T15:50:05Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.tar.gz",
+        "sha265sum" : "b1717fa3ba6452b0fc3d62530e0ba0eaeab0b7717fd4c42770f8656b47bb75f3",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.pkg",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.pkg",
+        "sha265sum" : "d1b6b6c5ed7432c1e07050789427f69ce744bc4b13f99d4cabbffb938b0aa9d9",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.pkg.sig"
+      } ],
+      "timestamp" : "2023-07-21T15:50:22Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.20_8.tar.gz",
+        "sha265sum" : "ad1645501461a986f6f40ede6a76198f267c694c06150a9ed36ae95e7d012287",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.20_8.tar.gz.sig"
+      },
+      "timestamp" : "2023-07-21T16:07:04Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.20_8.tar.gz",
+        "sha265sum" : "0b7e894af823484f270031ed6626f78504a7a44f8173d67433e14321d015e669",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.20_8.tar.gz.sig"
+      },
+      "timestamp" : "2023-07-21T16:06:25Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
@@ -208,6 +308,10 @@
       "build" : 8,
       "optional" : null,
       "openjdk_version" : "11.0.20+8"
+    },
+    "source" : {
+      "name" : "OpenJDK11U-jdk-sources_11.0.20_8.tar.gz",
+      "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk-sources_11.0.20_8.tar.gz"
     }
   } ]
 }
