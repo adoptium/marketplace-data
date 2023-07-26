@@ -333,6 +333,92 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.8_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x86",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.zip",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.zip",
+        "sha265sum" : "e8ed347915ba0badf605e94dea0f9b266b64baced152e09d663dd6b8b60ca19d",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.msi",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.msi",
+        "sha265sum" : "89fb5c01ba8890d18757f45860784d008977c2832f50c1b09969b10d5e4a631c",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.msi.sig"
+      } ],
+      "timestamp" : "2023-07-25T07:55:09Z",
+      "scm_ref" : "jdk-17.0.8+7_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.8+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.8_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x86",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.zip",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.zip",
+        "sha265sum" : "12f210d6beb3c3573c14525242144aae15cdc27f29401698a065375eab0c91d0",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.msi",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.msi",
+        "sha265sum" : "53309896c39942614f8c9ddd5356ce2c642928f2b3d63ead7b6b156d8003e19b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.msi.sig"
+      } ],
+      "timestamp" : "2023-07-25T07:55:28Z",
+      "scm_ref" : "jdk-17.0.8+7_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.8+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.8_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_s390x_linux_hotspot_17.0.8_7.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_s390x_linux_hotspot_17.0.8_7.tar.gz",
+        "sha265sum" : "4df17b19510864651c1d620baaf13766a448d43ee7848ea9ff69db10d26467b6",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_s390x_linux_hotspot_17.0.8_7.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_s390x_linux_hotspot_17.0.8_7.tar.gz.sig"
+      },
+      "timestamp" : "2023-07-25T10:27:19Z",
+      "scm_ref" : "jdk-17.0.8+7_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.8+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_s390x_linux_hotspot_17.0.8_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_s390x_linux_hotspot_17.0.8_7.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.8_7.tar.gz",
+        "sha265sum" : "055d8bd0eebf137cf3506fb84817ce2d858597f21067d9a1268f08916738b435",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.8_7.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.8_7.tar.gz.sig"
+      },
+      "timestamp" : "2023-07-25T10:27:37Z",
+      "scm_ref" : "jdk-17.0.8+7_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.8+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.8_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {

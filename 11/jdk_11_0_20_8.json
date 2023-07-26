@@ -383,6 +383,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.20_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.20_8.tar.gz",
+        "sha265sum" : "688c83d9edf2204220df94ce5bab4a6d19f3d91bc0e500f31dda41e16d9a383f",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.20_8.tar.gz.sig"
+      },
+      "timestamp" : "2023-07-25T20:06:41Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jre_s390x_linux_hotspot_11.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_s390x_linux_hotspot_11.0.20_8.tar.gz",
+        "sha265sum" : "0c7050976914e0613179446de62bb20d2845ae809f6d31bc0ed8d136f8fd3d9b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_s390x_linux_hotspot_11.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_s390x_linux_hotspot_11.0.20_8.tar.gz.sig"
+      },
+      "timestamp" : "2023-07-25T20:06:44Z",
+      "scm_ref" : "jdk-11.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.20%2B8/OpenJDK11U-jre_s390x_linux_hotspot_11.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
