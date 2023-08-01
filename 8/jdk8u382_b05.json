@@ -369,6 +369,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_sparcv9_solaris_hotspot_8u382b05.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "arm",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tar.gz",
+        "sha265sum" : "5d805ff157f272acf0f7d192f21af4a3b68c840333ca95568e4e07142efc369d",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tar.gz.sig"
+      },
+      "timestamp" : "2023-08-01T07:37:19Z",
+      "scm_ref" : "jdk8u382-b05-aarch32-20230719_adopt",
+      "openjdk_scm_ref" : "jdk8u382-b05-aarch32-20230719",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_arm_linux_hotspot_8u382b05.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "arm",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tar.gz",
+        "sha265sum" : "b92fb3972372b5d1f9fb51815def903105722b747f680b7ecf2ba2ba863ab156",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tar.gz.sig"
+      },
+      "timestamp" : "2023-08-01T07:37:24Z",
+      "scm_ref" : "jdk8u382-b05-aarch32-20230719_adopt",
+      "openjdk_scm_ref" : "jdk8u382-b05-aarch32-20230719",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
