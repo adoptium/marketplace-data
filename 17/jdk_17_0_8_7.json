@@ -430,6 +430,10 @@
       "build" : 7,
       "optional" : null,
       "openjdk_version" : "17.0.8+7"
+    },
+    "source" : {
+      "name" : "OpenJDK17U-jdk-sources_17.0.8_7.tar.gz",
+      "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk-sources_17.0.8_7.tar.gz"
     }
   } ]
 }
