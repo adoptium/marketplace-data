@@ -405,6 +405,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_arm_linux_hotspot_8u382b05.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_ppc64_aix_hotspot_8u382b05.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u382b05.tar.gz",
+        "sha265sum" : "4959a2ee985d06de250896118cb223000a396276d52c243cb76a944ee99d4f56",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u382b05.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u382b05.tar.gz.sig"
+      },
+      "timestamp" : "2023-08-03T11:22:40Z",
+      "scm_ref" : "jdk8u382-b05_adopt",
+      "openjdk_scm_ref" : "jdk8u382-b05",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jdk_ppc64_aix_hotspot_8u382b05.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tar.gz",
+        "sha265sum" : "64c3d38f5e1aadeaf8baa5977c45d03c46c68c6ffdb6b4f8278aef92395a337e",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tar.gz.sig"
+      },
+      "timestamp" : "2023-08-03T11:22:10Z",
+      "scm_ref" : "jdk8u382-b05_adopt",
+      "openjdk_scm_ref" : "jdk8u382-b05",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u382-b05/OpenJDK8U-jre_ppc64_aix_hotspot_8u382b05.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
