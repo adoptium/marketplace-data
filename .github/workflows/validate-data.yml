@@ -25,11 +25,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
         with:
           persist-credentials: false
 
-      - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
         with:
           repository: adoptium/api.adoptium.net
           ref: marketplace
@@ -62,7 +62,7 @@ jobs:
 #   download-testing:
 #     runs-on: ubuntu-latest
 #     steps:
-#       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
+#       - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
 #         with:
 #           fetch-depth: 2
 
@@ -81,7 +81,7 @@ jobs:
 #           python-version: '3.11'
 
 #       # checkout adoptium/marketplace-data to get the download-testing.py script
-#       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4.0.0
+#       - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
 #         if: github.repository_owner != 'adoptium' && steps.changed-files.outputs.files != ''
 #         with:
 #           repository: adoptium/marketplace-data
