@@ -58,7 +58,10 @@ jobs:
             FULL_DIFF=$(git status | egrep ".*\.json$")
             for file in **/*.sign; do
               JSON_PATH=$(echo $file | sed -e "s/.sha256.sign//")
-              if [ ! -n "$(echo "$FULL_DIFF" | grep "$JSON_PATH")" ]; then
+              EXISTS=$(git ls-tree -r HEAD --name-only |grep $file)
+              if [ -z "$EXISTS" ]; then 
+                echo "Add new file: $file"
+              else
                 git checkout main "$file"
               fi
             done
