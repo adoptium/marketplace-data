@@ -53,12 +53,12 @@ jobs:
       - name: Check to see if JSON files have changed or not
         run: |
           DIFF=$(git status | egrep ".*\.json$" | wc -l | tr -d '[:space:]')
-          echo "::set-output name=DIFF::$DIFF"
+          echo "DIFF=$DIFF" >> $GITHUB_OUTPUT
           if [[ $DIFF != "0" ]]; then
             FULL_DIFF=$(git status | egrep ".*\.json$")
             for file in **/*.sign; do
               JSON_PATH=$(echo $file | sed -e "s/.sha256.sign//")
-              EXISTS=$(git ls-tree -r HEAD --name-only |grep $file)
+              EXISTS=$(git ls-tree -r HEAD --name-only | grep "$file")
               if [ -z "$EXISTS" ]; then 
                 echo "Add new file: $file"
               else
