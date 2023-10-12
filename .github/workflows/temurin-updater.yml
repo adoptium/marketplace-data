@@ -64,7 +64,9 @@ jobs:
               if [[ -z "$EXISTS" ]]; then 
                 echo "Add new file: $file"
               else
-                git checkout main "$file"
+                if [ ! -n "$(echo "$FULL_DIFF" | grep "$JSON_PATH")" ]; then
+                  git checkout main "$file"
+                fi
               fi
             done
           fi
