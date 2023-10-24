@@ -21,30 +21,31 @@ jobs:
 
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
-          repository: adoptium/api.adoptium.net
-          ref: marketplace
+          repository: adoptium/marketplace-api.adoptium.net
+          ref: production
           path: api
+          submodules: true
           persist-credentials: false
 
       - uses: actions/setup-java@0ab4596768b603586c0de567f2430c30f5b0d2b0 # v3.13.0
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
           cache: 'maven'
         
       - name: Build API
         run: ./mvnw -DskipTests --batch-mode clean install -Padoptium
-        working-directory: api
+        working-directory: api/api.adoptium.net
         
       - name: Build Marketplace
-        run: ../mvnw -DskipTests --batch-mode clean install
-        working-directory: api/marketplace
+        run: ./mvnw -DskipTests --batch-mode clean install
+        working-directory: api
         
       - name: Generate JSON data
         env:
           KEY: ${{ secrets.TEMURIN_RSA_PRIVATE }}
-        run: ../../mvnw test -Dtest=ExtractAdoptiumReleases
-        working-directory: api/marketplace/adoptium-marketplace-utils
+        run: ../mvnw test -Dtest=ExtractAdoptiumReleases
+        working-directory: api/adoptium-marketplace-utils
         
       - name: Copy output JSON and .sign files before copying updated versions
         run: |
