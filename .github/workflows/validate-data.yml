@@ -31,24 +31,25 @@ jobs:
 
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
-          repository: adoptium/api.adoptium.net
-          ref: marketplace
+          repository: adoptium/marketplace-api.adoptium.net
+          ref: production
           path: api
+          submodules: true
           persist-credentials: false
 
       - uses: actions/setup-java@0ab4596768b603586c0de567f2430c30f5b0d2b0 # v3.13.0
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
           cache: 'maven'
 
       - name: Build API
         run: ./mvnw -DskipTests --batch-mode clean install -Padoptium
-        working-directory: api
+        working-directory: api/api.adoptium.net
 
       - name: Build Marketplace
-        run: ../mvnw -DskipTests --batch-mode clean install
-        working-directory: api/marketplace
+        run: ./mvnw -DskipTests --batch-mode clean install
+        working-directory: api
 
       - name: Validate data
         env:
@@ -56,57 +57,5 @@ jobs:
           REPO_SIGNATURE_TYPE: ${{ inputs.signature-type }}
           REPO_URL: file://${{ github.workspace }}/${{ inputs.json-path }}
           REPO_KEY: ${{ inputs.public-key }}
-        run: ../../mvnw --batch-mode clean test
-        working-directory: api/marketplace/adoptium-marketplace-vendor-validation
-
-#   download-testing:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-#         with:
-#           fetch-depth: 2
-
-#       # get list of changed files
-#       - name: Get list of changed files
-#         id: changed-files
-#         run: |
-#           changed_files=$(git diff --diff-filter=AMR --name-only -r HEAD~1 HEAD)
-#           # filter out all non json files
-#           json_files=$(echo "$changed_files" | grep -E "\.json$" || true)
-#           echo "files=$json_files" >> $GITHUB_OUTPUT
-
-#       - uses: actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1 # v4.7.0
-#         if: steps.changed-files.outputs.files != ''
-#         with:
-#           python-version: '3.11'
-
-#       # checkout adoptium/marketplace-data to get the download-testing.py script
-#       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-#         if: github.repository_owner != 'adoptium' && steps.changed-files.outputs.files != ''
-#         with:
-#           repository: adoptium/marketplace-data
-#           ref: main
-#           path: adoptium
-#           persist-credentials: false
-      
-#       - name: Set working directory
-#         if: steps.changed-files.outputs.files != ''
-#         run: |
-#           if ${{ github.repository_owner == 'adoptium' }}; then
-#             echo "workdir=.github/workflows" >> $GITHUB_ENV
-#           else
-#             echo "workdir=adoptium/.github/workflows" >> $GITHUB_ENV
-#           fi
-
-#       - name: Install dependencies
-#         if: steps.changed-files.outputs.files != ''
-#         run: pip install -r requirements.txt
-#         working-directory: ${{ env.workdir }}
-
-#       - name: Download testing
-#         if: steps.changed-files.outputs.files != ''
-#         run: |
-#           # loop through changed files
-#           for file in $(echo ${{ steps.changed-files.outputs.files }} | tr " " "\n"); do
-#             python ${{ env.workdir }}/download-testing.py "${file}"
-#           done
+        run: ../mvnw --batch-mode clean test
+        working-directory: api/adoptium-marketplace-vendor-validation
