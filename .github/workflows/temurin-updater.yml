@@ -27,20 +27,12 @@ jobs:
           submodules: true
           persist-credentials: false
 
-      - uses: actions/setup-java@0ab4596768b603586c0de567f2430c30f5b0d2b0 # v3.13.0
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-          cache: 'maven'
-        
-      - name: Build API
-        run: ./mvnw -DskipTests --batch-mode clean install -Padoptium
-        working-directory: api/api.adoptium.net
-        
       - name: Build Marketplace
-        run: ./mvnw -DskipTests --batch-mode clean install
-        working-directory: api
-        
+        uses: ./api/.github/actions/build-marketplace
+        with:
+          RUN_TESTS: false
+          WORKING_DIRECTORY: api
+
       - name: Generate JSON data
         env:
           KEY: ${{ secrets.TEMURIN_RSA_PRIVATE }}
