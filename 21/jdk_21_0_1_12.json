@@ -53,27 +53,7 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.1%2B12/OpenJDK21U-jdk_x64_windows_hotspot_21.0.1_12.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    } ],
-    "vendor" : "adoptium",
-    "openjdk_version_data" : {
-      "major" : 21,
-      "minor" : 0,
-      "security" : 1,
-      "patch" : null,
-      "pre" : null,
-      "build" : 12,
-      "optional" : "LTS",
-      "openjdk_version" : "21.0.1+12-LTS"
-    },
-    "source" : {
-      "name" : "OpenJDK21U-jdk-sources_21.0.1_12.tar.gz",
-      "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.1%2B12/OpenJDK21U-jdk-sources_21.0.1_12.tar.gz"
-    }
-  }, {
-    "release_link" : "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.1%2B12",
-    "release_name" : "jdk-21.0.1+12",
-    "last_updated_timestamp" : "2023-10-24T09:03:26Z",
-    "binaries" : [ {
+    }, {
       "os" : "mac",
       "architecture" : "x64",
       "image_type" : "jdk",
