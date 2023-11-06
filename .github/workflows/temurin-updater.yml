@@ -2,7 +2,6 @@
 
 name: Update Temurin JSON
 
-# Controls when the workflow will run
 on:
   schedule:
     - cron: "0 0 * * *"
