@@ -76,3 +76,11 @@ jobs:
           commit-message: "updater: automated json updates"
           labels: automerge
           author: "eclipse-temurin-bot <temurin-bot@eclipse.org>"
+
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          repository: adoptium/marketplace-api.adoptium.net
+          ref: production
+          path: api
+          submodules: true
+          persist-credentials: false
