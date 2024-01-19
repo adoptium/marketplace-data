@@ -1,5 +1,5 @@
 {
   "schema_version" : "1.0.0",
   "indexes" : [ ],
-  "releases" : [ "jdk_21_0_1_12.json", "jdk_21_35.json" ]
+  "releases" : [ "jdk_21_0_2_13.json", "jdk_21_0_1_12.json", "jdk_21_35.json" ]
 }
