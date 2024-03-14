@@ -7,6 +7,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write  # to push local changes (gr2m/create-or-update-pull-request-action)
+  pull-requests: write  # to create a PR (gr2m/create-or-update-pull-request-action)
+
 jobs:
   update:
     if: github.repository_owner == 'adoptium'
