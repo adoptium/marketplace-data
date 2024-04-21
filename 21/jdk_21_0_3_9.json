@@ -125,6 +125,250 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.3_9.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "8df56361b834c4681ef304ae9dc8406ce3d79c8572d2d6c2fefcbea55be7d86b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.pkg",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.pkg",
+        "sha265sum" : "e1f932138ad1c023451a4a4709ef4d042f015540c061fb2218ac635ca2eb60a8",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.pkg.sig"
+      } ],
+      "timestamp" : "2024-04-19T08:32:27Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_mac_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "b6be6a9568be83695ec6b7cb977f4902f7be47d74494c290bc2a5c3c951e254f",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.pkg",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.pkg",
+        "sha265sum" : "f0a8cfcc9612caba26f6362ec63c5c67936d9b0a1be973a6e3b629fee9507214",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.pkg.sig"
+      } ],
+      "timestamp" : "2024-04-19T08:32:45Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "f777103aab94330d14a29bd99f3a26d60abbab8e2c375cec9602746096721a7c",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.pkg",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.pkg",
+        "sha265sum" : "91f0ce47ac9189901d4dd5c6e9fb59d4aeaa365ab72c8cedbe6b5d4e9f1d6f49",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.pkg.sig"
+      } ],
+      "timestamp" : "2024-04-19T14:23:25Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_mac_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "d7fc89c196ed03deb8a98f6599e1b2e78859ec8ec752142549cd3710f3e1a025",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.pkg",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.pkg",
+        "sha265sum" : "232637649ad61e4b274da77603ffa342c3d2e8ac7b6636336e7487f56c2f8511",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.pkg.sig"
+      } ],
+      "timestamp" : "2024-04-19T14:23:01Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_mac_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "a60dbad08a1977269dec7782f90225107479bfc8d10d2894f437778ae2e2b737",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T20:59:50Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_s390x_linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "f57a078d417614e5d78c07c77a6d8a04701058cf692c8e2868d593582be92768",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:00:03Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "8e861638bf6b08c6d5837de6dc929930550928ec5fcc81b9fa7e8296afd0f9c0",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:03:55Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "b3e7170deab11a7089fe8e14f9f398424fd86db085f745dad212f6cfc4121df6",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:03:38Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_x64_alpine-linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "54e8618da373258654fe788d509f087d3612de9e080eb6831601069dbc8a4b2b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:07:04Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "0f68a9122054149861f6ce9d1b1c176bbe30dd76b36b74c916ba897c12e9d970",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:07:28Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "ppc64le",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "9a1079d7f0fc72951fdc9a0029e49a15f6ba114683aee626f882ee2c761f1d57",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:10:43Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "ppc64le",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz",
+        "sha265sum" : "aa628c6accc9d075b7b0f2bff6487f8ca0b8f057af31842a85fc8b363e1e10f3",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-04-20T21:10:22Z",
+      "scm_ref" : "jdk-21.0.3+9_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.3+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jre_ppc64le_linux_hotspot_21.0.3_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
