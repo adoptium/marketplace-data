@@ -333,6 +333,56 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_s390x_linux_hotspot_17.0.11_9.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x86",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.zip",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.zip",
+        "sha265sum" : "522e5b1b53a4835b4fba92e4d99463cce3f720e17c943b251a133c8f58dbcecf",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.msi",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.msi",
+        "sha265sum" : "82345aa7e4af7e0ff245bf7aec60e5ba2fe4c070285950869febda9bb310a5b5",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.msi.sig"
+      } ],
+      "timestamp" : "2024-04-21T22:09:57Z",
+      "scm_ref" : "jdk-17.0.11+9_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.11+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.11_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x86",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.zip",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.zip",
+        "sha265sum" : "f3880fc9c2493eb1f99a53583a2448bac0e32e29dadd274d9e518b7c2b53cd39",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.msi",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.msi",
+        "sha265sum" : "f30dc5345265bb744c42f2b048ee50a1d7d3c36bd3e7641ae5177ead8a339f46",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.msi.sig"
+      } ],
+      "timestamp" : "2024-04-21T22:10:22Z",
+      "scm_ref" : "jdk-17.0.11+9_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.11+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.11_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
