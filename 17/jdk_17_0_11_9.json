@@ -455,6 +455,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.11_9.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "riscv64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.11_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.11_9.tar.gz",
+        "sha265sum" : "f54c301e3ed3250b3f11cb06eeb799e4aa871477b1ce8bf9fec9fee8ce6beb96",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.11_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.11_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-05-14T09:11:33Z",
+      "scm_ref" : "jdk-17.0.11+9_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.11+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_riscv64_linux_hotspot_17.0.11_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "riscv64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_riscv64_linux_hotspot_17.0.11_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_riscv64_linux_hotspot_17.0.11_9.tar.gz",
+        "sha265sum" : "e814bfe176ee1d1dc8054571070a0f98fc6a87477382d84df7c6bed27622f97e",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_riscv64_linux_hotspot_17.0.11_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_riscv64_linux_hotspot_17.0.11_9.tar.gz.sig"
+      },
+      "timestamp" : "2024-05-14T09:11:59Z",
+      "scm_ref" : "jdk-17.0.11+9_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.11+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jre_riscv64_linux_hotspot_17.0.11_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
