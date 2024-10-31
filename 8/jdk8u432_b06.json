@@ -369,6 +369,42 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_sparcv9_solaris_hotspot_8u432b06.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "solaris",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tar.gz",
+        "sha265sum" : "7165154e4ca21e4e80ec221f88cf2084ffa53f8873ac4a17ba66ac78e7643e2c",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tar.gz.sig"
+      },
+      "timestamp" : "2024-10-30T13:45:44Z",
+      "scm_ref" : "jdk8u432-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u432-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jdk_x64_solaris_hotspot_8u432b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "solaris",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_x64_solaris_hotspot_8u432b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_x64_solaris_hotspot_8u432b06.tar.gz",
+        "sha265sum" : "766b75c4e9e4dc9c48509139d067ecb19f2d92a545441c68e7127afed41b473c",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_x64_solaris_hotspot_8u432b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_x64_solaris_hotspot_8u432b06.tar.gz.sig"
+      },
+      "timestamp" : "2024-10-30T13:45:23Z",
+      "scm_ref" : "jdk8u432-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u432-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u432-b06/OpenJDK8U-jre_x64_solaris_hotspot_8u432b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
