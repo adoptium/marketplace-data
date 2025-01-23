@@ -1,0 +1,195 @@
+{
+  "releases" : [ {
+    "release_link" : "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u442-b06",
+    "release_name" : "jdk8u442-b06",
+    "last_updated_timestamp" : "2025-01-23T18:34:29Z",
+    "binaries" : [ {
+      "os" : "linux",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_aarch64_linux_hotspot_8u442b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_aarch64_linux_hotspot_8u442b06.tar.gz",
+        "sha265sum" : "1d1662bd8ca7edc9281c723d9eebafea940e6a41464bdc43a83b564bc974c7e5",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_aarch64_linux_hotspot_8u442b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_aarch64_linux_hotspot_8u442b06.tar.gz.sig"
+      },
+      "timestamp" : "2025-01-23T18:34:35Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_aarch64_linux_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_aarch64_linux_hotspot_8u442b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_aarch64_linux_hotspot_8u442b06.tar.gz",
+        "sha265sum" : "730ed649ee973b7408cf7107e90576b67e8ed4b3aebb9e3e8a1056151f373152",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_aarch64_linux_hotspot_8u442b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_aarch64_linux_hotspot_8u442b06.tar.gz.sig"
+      },
+      "timestamp" : "2025-01-23T18:35:03Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_aarch64_linux_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.zip",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.zip",
+        "sha265sum" : "ffe22d16a1ea6fe709a089f3472fedb783470b879634b26b32424e40bbd00b09",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.msi",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.msi",
+        "sha265sum" : "fac13d03d3d193509d82ef964060c21f2b20bc0ca3419ecc5cb3ef71283f2f94",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.msi.sig"
+      } ],
+      "timestamp" : "2025-01-23T19:49:54Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_windows_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_x64_windows_hotspot_8u442b06.zip",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.zip",
+        "sha265sum" : "76fb88abf5aeec76b8b6acda060d7b000a44280d0bfc5b8f198b346722648126",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK8U-jre_x64_windows_hotspot_8u442b06.msi",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.msi",
+        "sha265sum" : "4dd03622b9690427dbcd6df6c60eb6e1a422f1eb7389f0d08ef844bf43e23eab",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.msi.sig"
+      } ],
+      "timestamp" : "2025-01-23T19:49:42Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_windows_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_x64_linux_hotspot_8u442b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_linux_hotspot_8u442b06.tar.gz",
+        "sha265sum" : "730fe33b1fc1f7da1e325d007b475d25a063850a167b548ea4bf689d4fcd867d",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_linux_hotspot_8u442b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_linux_hotspot_8u442b06.tar.gz.sig"
+      },
+      "timestamp" : "2025-01-23T21:00:57Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_linux_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_x64_linux_hotspot_8u442b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_linux_hotspot_8u442b06.tar.gz",
+        "sha265sum" : "5b0a0145e7790552a9c8767b4680074c4628ec276e5bb278b61d85cf90facafa",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_linux_hotspot_8u442b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_linux_hotspot_8u442b06.tar.gz.sig"
+      },
+      "timestamp" : "2025-01-23T21:01:11Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_linux_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jre_x64_mac_hotspot_8u442b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.tar.gz",
+        "sha265sum" : "e2658d0808fd2f4d5ad261a8954366a9b277eabd55a404452674b56abc325fec",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK8U-jre_x64_mac_hotspot_8u442b06.pkg",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.pkg",
+        "sha265sum" : "9cf9902cc6f8a65e2f1c37c163974c4d95a817d99397d375d3cd961b631265b3",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.pkg.sig"
+      } ],
+      "timestamp" : "2025-01-23T21:06:08Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jre_x64_mac_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.tar.gz",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.tar.gz",
+        "sha265sum" : "2f70725e032fe55629a2659d53646b14c538b12cdcedc2d3c9fa342e1b401cf1",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.pkg",
+        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.pkg",
+        "sha265sum" : "01e58ec8feec20455e09b549312562397ba0cfb7e695ba992a458420b8684cd2",
+        "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.pkg.sig"
+      } ],
+      "timestamp" : "2025-01-23T21:07:21Z",
+      "scm_ref" : "jdk8u442-b06_adopt",
+      "openjdk_scm_ref" : "jdk8u442-b06",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk_x64_mac_hotspot_8u442b06.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    } ],
+    "vendor" : "adoptium",
+    "openjdk_version_data" : {
+      "major" : 8,
+      "minor" : 0,
+      "security" : 442,
+      "patch" : null,
+      "pre" : null,
+      "build" : 6,
+      "optional" : null,
+      "openjdk_version" : "1.8.0_442-b06"
+    },
+    "source" : {
+      "name" : "OpenJDK8U-jdk-sources_8u442b06.tar.gz",
+      "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-jdk-sources_8u442b06.tar.gz"
+    }
+  } ]
+}

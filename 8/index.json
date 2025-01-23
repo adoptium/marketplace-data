@@ -1,5 +1,5 @@
 {
   "schema_version" : "1.0.0",
   "indexes" : [ ],
-  "releases" : [ "jdk8u432_b06.json", "jdk8u422_b05_1.json", "jdk8u422_b05.json", "jdk8u412_b08.json", "jdk8u402_b06.json", "jdk8u392_b08.json", "jdk8u382_b05.json", "jdk8u372_b07.json", "jdk8u362_b09.json", "jdk8u352_b08.json", "jdk8u345_b01.json", "jdk8u342_b07_1.json", "jdk8u342_b07.json", "jdk8u332_b09.json", "jdk8u322_b06.json" ]
+  "releases" : [ "jdk8u442_b06.json", "jdk8u432_b06.json", "jdk8u422_b05_1.json", "jdk8u422_b05.json", "jdk8u412_b08.json", "jdk8u402_b06.json", "jdk8u392_b08.json", "jdk8u382_b05.json", "jdk8u372_b07.json", "jdk8u362_b09.json", "jdk8u352_b08.json", "jdk8u345_b01.json", "jdk8u342_b07_1.json", "jdk8u342_b07.json", "jdk8u332_b09.json", "jdk8u322_b06.json" ]
 }
