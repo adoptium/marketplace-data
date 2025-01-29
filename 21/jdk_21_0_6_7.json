@@ -441,6 +441,56 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.6_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.zip",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.zip",
+        "sha265sum" : "d3f4584e6bbbed5dc657fd0d95a3856a3d8c7acc42c3d7469136b3fb8bd89534",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.msi",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.msi",
+        "sha265sum" : "1018c6bf8e39136e14a0637ff09410f34d696089953851f68869ce6c45d885f2",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.msi.sig"
+      } ],
+      "timestamp" : "2025-01-28T14:29:32Z",
+      "scm_ref" : "jdk-21.0.6+7_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.6+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.6_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.zip",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.zip",
+        "sha265sum" : "031153a95c4946bfa6874b39cb6d85d57d71eb5502af649466f899a6575868a6",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.msi",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.msi",
+        "sha265sum" : "919be827bbbece030c0aa3f6c99e72efb62e597e443b7950bf060225c1595869",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.msi.sig"
+      } ],
+      "timestamp" : "2025-01-28T14:29:35Z",
+      "scm_ref" : "jdk-21.0.6+7_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.6+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_aarch64_windows_hotspot_21.0.6_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
