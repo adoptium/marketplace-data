@@ -92,6 +92,31 @@
     }, {
       "os" : "mac",
       "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.tar.gz",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.tar.gz",
+        "sha265sum" : "c970e5917964da1b50c0029ba88a6fbe962783def4de6a8a2835af6a6859002c",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.pkg",
+        "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.pkg",
+        "sha265sum" : "45a066c8431c48845f67ca5eddc081f7be3c4f75c133cdb121943ccd2d49b8a3",
+        "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.pkg.sig"
+      } ],
+      "timestamp" : "2025-01-23T18:53:28Z",
+      "scm_ref" : "jdk-11.0.26+4_adopt",
+      "openjdk_scm_ref" : "jdk-11.0.26+4",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.26%2B4/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.26_4.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "aarch64",
       "image_type" : "jre",
       "jvm_impl" : "hotspot",
       "package" : {
