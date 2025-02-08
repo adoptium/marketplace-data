@@ -286,23 +286,6 @@
     }, {
       "os" : "solaris",
       "architecture" : "x64",
-      "image_type" : "jdk",
-      "jvm_impl" : "hotspot",
-      "package" : {
-        "name" : "OpenJDK8U-sbom_x64_solaris_hotspot_8u442b06.json",
-        "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-sbom_x64_solaris_hotspot_8u442b06.json",
-        "sha265sum" : "90f4abe3c0a7474c3d305f54d35459b416e4526e08dd1f6f1b2b2f44c07687cc",
-        "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-sbom_x64_solaris_hotspot_8u442b06.json.sig"
-      },
-      "timestamp" : "2025-01-29T09:58:33Z",
-      "scm_ref" : "jdk8u442-b06_adopt",
-      "openjdk_scm_ref" : "jdk8u442-b06",
-      "distribution" : "temurin",
-      "aqavit_results_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u442-b06/OpenJDK8U-sbom_x64_solaris_hotspot_8u442b06.json",
-      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
-    }, {
-      "os" : "solaris",
-      "architecture" : "x64",
       "image_type" : "jre",
       "jvm_impl" : "hotspot",
       "package" : {
