@@ -11,6 +11,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "786a72296189ba8e43999532aa73730d87ec1fce558eb3c4e98b611b423375e3",
         "sha265sum" : "786a72296189ba8e43999532aa73730d87ec1fce558eb3c4e98b611b423375e3",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -29,6 +30,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_x64_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "23e47ea7a3015be3240f21185fd902adebdcf76530757c9b482c7eb5bd3417c2",
         "sha265sum" : "23e47ea7a3015be3240f21185fd902adebdcf76530757c9b482c7eb5bd3417c2",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -47,6 +49,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_aarch64_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "7290ace47a030d89ea023c28e7aa555c9da72b4194f73b39ec9d058011bf06dd",
         "sha265sum" : "7290ace47a030d89ea023c28e7aa555c9da72b4194f73b39ec9d058011bf06dd",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -65,6 +68,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "e00476a7be3c4adfa9b3d55d30768967fd246a8352e518894e183fa444d4d3ce",
         "sha265sum" : "e00476a7be3c4adfa9b3d55d30768967fd246a8352e518894e183fa444d4d3ce",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -83,6 +87,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "49122443bdeab2c9f468bd400f58f85a9ea462846faa79084fd6fd786d9b492d",
         "sha265sum" : "49122443bdeab2c9f468bd400f58f85a9ea462846faa79084fd6fd786d9b492d",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.tar.gz.sig"
@@ -90,6 +95,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.pkg",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.pkg",
+        "sha256sum" : "aa4e2d475b62c879293d95a6093c8290d05caff60c5df385525083118b61dbe8",
         "sha265sum" : "aa4e2d475b62c879293d95a6093c8290d05caff60c5df385525083118b61dbe8",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.23_9.pkg.sig"
@@ -108,6 +114,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "8ecc59f0bda845717cecbc6025c4c7fcc26d6ffe48824b8f7a5db024216c5fb4",
         "sha265sum" : "8ecc59f0bda845717cecbc6025c4c7fcc26d6ffe48824b8f7a5db024216c5fb4",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.tar.gz.sig"
@@ -115,6 +122,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.pkg",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.pkg",
+        "sha256sum" : "36c6a82cac314764569503c2673176c82d6c04ee7c1b30f587005e9630d43459",
         "sha265sum" : "36c6a82cac314764569503c2673176c82d6c04ee7c1b30f587005e9630d43459",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_aarch64_mac_hotspot_11.0.23_9.pkg.sig"
@@ -133,6 +141,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.zip",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.zip",
+        "sha256sum" : "6af3cb9e4fb90d730639d63a0588e4812bc8caf8cf0dcc5730a81917015cd8f6",
         "sha265sum" : "6af3cb9e4fb90d730639d63a0588e4812bc8caf8cf0dcc5730a81917015cd8f6",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.zip.sig"
@@ -140,6 +149,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.msi",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.msi",
+        "sha256sum" : "6699a78e61c0d8208a6d43a3b4590fbabf77bb1c1b8b30d8140e62804fa286cb",
         "sha265sum" : "6699a78e61c0d8208a6d43a3b4590fbabf77bb1c1b8b30d8140e62804fa286cb",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.23_9.msi.sig"
@@ -158,6 +168,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip",
+        "sha256sum" : "d7a9f8ceee9a5785dcbbcbec20a07b1366efec59ba652ef7e03f6f7d10f52b85",
         "sha265sum" : "d7a9f8ceee9a5785dcbbcbec20a07b1366efec59ba652ef7e03f6f7d10f52b85",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip.sig"
@@ -165,6 +176,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.msi",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.msi",
+        "sha256sum" : "cacbe31a3921e52f4ff6d031d6f37d8a7c58f20a136fccf1754565f8aa403ed8",
         "sha265sum" : "cacbe31a3921e52f4ff6d031d6f37d8a7c58f20a136fccf1754565f8aa403ed8",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.msi.sig"
@@ -183,6 +195,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "f56068bb64c6bf858894f75c2bc261f54db32932422eb07527f36ae40046e9a0",
         "sha265sum" : "f56068bb64c6bf858894f75c2bc261f54db32932422eb07527f36ae40046e9a0",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_ppc64le_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -201,6 +214,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "3b3fbd324620fd914bd8462e292124493fcf846fd69195c4b9a231131dc68d5f",
         "sha265sum" : "3b3fbd324620fd914bd8462e292124493fcf846fd69195c4b9a231131dc68d5f",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64le_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -219,6 +233,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "4dbd21d9a0311d321f5886eda50c3086026ed61d02e1a85f7b8c2e9ad557bf03",
         "sha265sum" : "4dbd21d9a0311d321f5886eda50c3086026ed61d02e1a85f7b8c2e9ad557bf03",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.tar.gz.sig"
@@ -226,6 +241,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.pkg",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.pkg",
+        "sha256sum" : "daa238fe952045f54c03671c766c34498ee718aeb11c4a82b70801863abb1b62",
         "sha265sum" : "daa238fe952045f54c03671c766c34498ee718aeb11c4a82b70801863abb1b62",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_mac_hotspot_11.0.23_9.pkg.sig"
@@ -244,6 +260,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "9855769dddc3f3b5a1fb530ce953025b1f7b3fac861628849b417676b1310b1f",
         "sha265sum" : "9855769dddc3f3b5a1fb530ce953025b1f7b3fac861628849b417676b1310b1f",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.tar.gz.sig"
@@ -251,6 +268,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.pkg",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.pkg",
+        "sha256sum" : "98aad39d428ff931751a1baca21c2e1c0d3db679ea119581fe1f83dd2f59944a",
         "sha265sum" : "98aad39d428ff931751a1baca21c2e1c0d3db679ea119581fe1f83dd2f59944a",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.23_9.pkg.sig"
@@ -269,6 +287,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_s390x_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "cf06c3e41acfaeda77112ac04f5a711cafe9fa9ac04dff758696fe7e8d66a0ea",
         "sha265sum" : "cf06c3e41acfaeda77112ac04f5a711cafe9fa9ac04dff758696fe7e8d66a0ea",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_s390x_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -287,6 +306,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_s390x_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_s390x_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "25abb7f74f55847b0d509402111084bd7a244d904744f3bfffa89528bc3b8a69",
         "sha265sum" : "25abb7f74f55847b0d509402111084bd7a244d904744f3bfffa89528bc3b8a69",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_s390x_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_s390x_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -305,6 +325,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.zip",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.zip",
+        "sha256sum" : "1afdb0e4fb357e77fbda39ea878d670e2272844297ae16deb05bec07b729ad57",
         "sha265sum" : "1afdb0e4fb357e77fbda39ea878d670e2272844297ae16deb05bec07b729ad57",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.zip.sig"
@@ -312,6 +333,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.msi",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.msi",
+        "sha256sum" : "caf3c6e102b8213784eb4e6fdcb50967fde3e3018e8aa171f97a8854ec4fc49e",
         "sha265sum" : "caf3c6e102b8213784eb4e6fdcb50967fde3e3018e8aa171f97a8854ec4fc49e",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.23_9.msi.sig"
@@ -330,6 +352,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.zip",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.zip",
+        "sha256sum" : "402d7c7cd647daaf1c20839ad21048e2c0a1bab139405ae5901b3b83f5248560",
         "sha265sum" : "402d7c7cd647daaf1c20839ad21048e2c0a1bab139405ae5901b3b83f5248560",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.zip.sig"
@@ -337,6 +360,7 @@
       "installer" : [ {
         "name" : "OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.msi",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.msi",
+        "sha256sum" : "aa256af4cf491950d126374182322b617156719a7627f5b46f411ab90bf01377",
         "sha265sum" : "aa256af4cf491950d126374182322b617156719a7627f5b46f411ab90bf01377",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.23_9.msi.sig"
@@ -355,6 +379,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_ppc64_aix_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "2bf74db4607fc1d98946416b2be187c01c8ed86922f03b75fae07268e6a06634",
         "sha265sum" : "2bf74db4607fc1d98946416b2be187c01c8ed86922f03b75fae07268e6a06634",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_ppc64_aix_hotspot_11.0.23_9.tar.gz.sig"
@@ -373,6 +398,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "8617b21b47832faab1cb5c5db287606c251a86f81f5320fe71b3d903cba5cf34",
         "sha265sum" : "8617b21b47832faab1cb5c5db287606c251a86f81f5320fe71b3d903cba5cf34",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_ppc64_aix_hotspot_11.0.23_9.tar.gz.sig"
@@ -391,6 +417,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_arm_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_arm_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "8077edc07a57d846c3d11286a7caf05ed6ca6d6c1234bf0e03611f18e187f075",
         "sha265sum" : "8077edc07a57d846c3d11286a7caf05ed6ca6d6c1234bf0e03611f18e187f075",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_arm_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_arm_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -409,6 +436,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_arm_linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_arm_linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "025f994549708f7291ce3b0fa7c41f7e78ec3af3eae3f85fffe9c5fa4a54889f",
         "sha265sum" : "025f994549708f7291ce3b0fa7c41f7e78ec3af3eae3f85fffe9c5fa4a54889f",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_arm_linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_arm_linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -427,6 +455,7 @@
       "package" : {
         "name" : "OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "b45c467be52fe11ffd9bf69b3a035068134b305053874de4f3b3c5e5e1419659",
         "sha265sum" : "b45c467be52fe11ffd9bf69b3a035068134b305053874de4f3b3c5e5e1419659",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.23_9.tar.gz.sig"
@@ -445,6 +474,7 @@
       "package" : {
         "name" : "OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.23_9.tar.gz",
         "link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.23_9.tar.gz",
+        "sha256sum" : "6972a6251bc88d6fbb64a188557cf165f1c415ded550d2a280bbcbc4272caff1",
         "sha265sum" : "6972a6251bc88d6fbb64a188557cf165f1c415ded550d2a280bbcbc4272caff1",
         "sha256sum_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.23_9.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jre_x64_alpine-linux_hotspot_11.0.23_9.tar.gz.sig"

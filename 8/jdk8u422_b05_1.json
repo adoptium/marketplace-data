@@ -11,6 +11,7 @@
       "package" : {
         "name" : "OpenJDK8U-jre_x64_mac_hotspot_8u422b05.tar.gz",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.tar.gz",
+        "sha256sum" : "814a1e262c10cb3f056adbdb20396564fe9ea0f039a863bae6b648f7680b30cc",
         "sha265sum" : "814a1e262c10cb3f056adbdb20396564fe9ea0f039a863bae6b648f7680b30cc",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.tar.gz.sig"
@@ -18,6 +19,7 @@
       "installer" : [ {
         "name" : "OpenJDK8U-jre_x64_mac_hotspot_8u422b05.pkg",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.pkg",
+        "sha256sum" : "e23c79d7bcf3f139668cfb750d852122b3d130ad0f0b6e2b836573d0e1294ed2",
         "sha265sum" : "e23c79d7bcf3f139668cfb750d852122b3d130ad0f0b6e2b836573d0e1294ed2",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jre_x64_mac_hotspot_8u422b05.pkg.sig"
@@ -36,6 +38,7 @@
       "package" : {
         "name" : "OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.tar.gz",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.tar.gz",
+        "sha256sum" : "14e93cac142c4e7734aab53d1e9f44ef2851cf1cc4657918abccdf99e78c8bad",
         "sha265sum" : "14e93cac142c4e7734aab53d1e9f44ef2851cf1cc4657918abccdf99e78c8bad",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.tar.gz.sig"
@@ -43,6 +46,7 @@
       "installer" : [ {
         "name" : "OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.pkg",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.pkg",
+        "sha256sum" : "809d7c0b6c7c2fd483711fb784e4fb101ad431c71dc8e96aa9c2cffaa8bfa7b7",
         "sha265sum" : "809d7c0b6c7c2fd483711fb784e4fb101ad431c71dc8e96aa9c2cffaa8bfa7b7",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u422-b05.1/OpenJDK8U-jdk_x64_mac_hotspot_8u422b05.pkg.sig"

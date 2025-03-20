@@ -11,6 +11,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "c0851d610b03cb51e9b360fef3e9ec2026c62837a143e7786649ba94f38cc0d1",
         "sha265sum" : "c0851d610b03cb51e9b360fef3e9ec2026c62837a143e7786649ba94f38cc0d1",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -29,6 +30,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_x64_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "616b137b87fa84211ac2f5c23dfcf3a8c5df9d0fd7ea3c872a0bf394b2f6c464",
         "sha265sum" : "616b137b87fa84211ac2f5c23dfcf3a8c5df9d0fd7ea3c872a0bf394b2f6c464",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -47,6 +49,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.zip",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.zip",
+        "sha256sum" : "35139d1ba8dd50853f9dbf34a4401a3d588ab54951ef98f447b7addbbab67060",
         "sha265sum" : "35139d1ba8dd50853f9dbf34a4401a3d588ab54951ef98f447b7addbbab67060",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.zip.sig"
@@ -54,6 +57,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.msi",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.msi",
+        "sha256sum" : "fa761092862406d93b07c20c63b705728f3b3604a0e87bd4d909c0c63eee72c9",
         "sha265sum" : "fa761092862406d93b07c20c63b705728f3b3604a0e87bd4d909c0c63eee72c9",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.4_8.msi.sig"
@@ -72,6 +76,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.zip",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.zip",
+        "sha256sum" : "67d93c738dd7b546ea0954c0f2e22d3c10ebf7b870a70fb0bb1f289ad80498b5",
         "sha265sum" : "67d93c738dd7b546ea0954c0f2e22d3c10ebf7b870a70fb0bb1f289ad80498b5",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.zip.sig"
@@ -79,6 +84,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.msi",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.msi",
+        "sha256sum" : "899d195420f638accb031326f60be9d076a56f2b0736c5f277e3ea81a088399c",
         "sha265sum" : "899d195420f638accb031326f60be9d076a56f2b0736c5f277e3ea81a088399c",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.4_8.msi.sig"
@@ -97,6 +103,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "8c23b0b9c65cfe223a07edb8752026afd1e8ec1682630c2d92db4dd5aa039204",
         "sha265sum" : "8c23b0b9c65cfe223a07edb8752026afd1e8ec1682630c2d92db4dd5aa039204",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -115,6 +122,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_aarch64_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "d0fc84cb9627641d5a3c85aef9e7e26e4874e37524f9425112c6def5b12b7892",
         "sha265sum" : "d0fc84cb9627641d5a3c85aef9e7e26e4874e37524f9425112c6def5b12b7892",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -133,6 +141,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "e80a0f6626bd28ea20c43524b3ab10af48b3789317aea5b7019c146fe6268d94",
         "sha265sum" : "e80a0f6626bd28ea20c43524b3ab10af48b3789317aea5b7019c146fe6268d94",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -151,6 +160,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "a5d055cbdb1f8ef537afc66a6315e865646305420cb96ab08dc239074f88ad1d",
         "sha265sum" : "a5d055cbdb1f8ef537afc66a6315e865646305420cb96ab08dc239074f88ad1d",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -169,6 +179,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "3b356512c955f2d1a66b714ab3acaad942d04f80603af7dcd56e1fe5baeaeeda",
         "sha265sum" : "3b356512c955f2d1a66b714ab3acaad942d04f80603af7dcd56e1fe5baeaeeda",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -187,6 +198,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "9d5a1fc83b3e74efb25d1ec3767aa6d29e9439c46e5855cfbd59eff3e9978529",
         "sha265sum" : "9d5a1fc83b3e74efb25d1ec3767aa6d29e9439c46e5855cfbd59eff3e9978529",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -205,6 +217,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.zip",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.zip",
+        "sha256sum" : "a737c2ac67cdf3b6dad3ba6983decf46b62ea3022754417212fa2069cbfe0c51",
         "sha265sum" : "a737c2ac67cdf3b6dad3ba6983decf46b62ea3022754417212fa2069cbfe0c51",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.zip.sig"
@@ -212,6 +225,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.msi",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.msi",
+        "sha256sum" : "fe9c055e6240ed0f3a0eefc0aeda8d7169d363393f66a003ba7f7fb6c4d792fa",
         "sha265sum" : "fe9c055e6240ed0f3a0eefc0aeda8d7169d363393f66a003ba7f7fb6c4d792fa",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.4_8.msi.sig"
@@ -230,6 +244,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.zip",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.zip",
+        "sha256sum" : "dd4e7fcc95803abac37b35a23b1576dfccb4706e12f811067cadf9e88907dd7f",
         "sha265sum" : "dd4e7fcc95803abac37b35a23b1576dfccb4706e12f811067cadf9e88907dd7f",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.zip.sig"
@@ -237,6 +252,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.msi",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.msi",
+        "sha256sum" : "e1b7ef203dc083627a39c7b68d677aa1f11c6d6fad5d45bf3d6af1c561181f7c",
         "sha265sum" : "e1b7ef203dc083627a39c7b68d677aa1f11c6d6fad5d45bf3d6af1c561181f7c",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.4_8.msi.sig"
@@ -255,6 +271,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_arm_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_arm_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "f499656e581517e62aa954965a7a19bbb0ea8c2e6bd84050527b88efbaa1d96d",
         "sha265sum" : "f499656e581517e62aa954965a7a19bbb0ea8c2e6bd84050527b88efbaa1d96d",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_arm_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_arm_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -273,6 +290,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_arm_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_arm_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "6a559ec6186ae74c362115cab36057db40e0c6e9e50763f5b485240109a226ec",
         "sha265sum" : "6a559ec6186ae74c362115cab36057db40e0c6e9e50763f5b485240109a226ec",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_arm_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_arm_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -291,6 +309,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_s390x_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "40b09e8fa473f194030a85c059ba768abf5635a9a6d4dbeb79a87113ee8f4ece",
         "sha265sum" : "40b09e8fa473f194030a85c059ba768abf5635a9a6d4dbeb79a87113ee8f4ece",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -309,6 +328,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_s390x_linux_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "79a9f3193721ddea74e7a8aa8fe870bcef85cca6c5870835e8517bc61251f50a",
         "sha265sum" : "79a9f3193721ddea74e7a8aa8fe870bcef85cca6c5870835e8517bc61251f50a",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_s390x_linux_hotspot_17.0.4_8.tar.gz.sig"
@@ -327,6 +347,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "2a04025a8b974ba69025a498f3327270bdbee4d6c24cf69f603091f6ad60694b",
         "sha265sum" : "2a04025a8b974ba69025a498f3327270bdbee4d6c24cf69f603091f6ad60694b",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.tar.gz.sig"
@@ -334,6 +355,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.pkg",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.pkg",
+        "sha256sum" : "c67a539ab49d64de71d62dcdbed9f64c81ecddf67b654299cf0e2521ca0008c5",
         "sha265sum" : "c67a539ab49d64de71d62dcdbed9f64c81ecddf67b654299cf0e2521ca0008c5",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.4_8.pkg.sig"
@@ -352,6 +374,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "2e4236c3a67693d10489b66380b9d6c2fe685602040f21418f76d278be510759",
         "sha265sum" : "2e4236c3a67693d10489b66380b9d6c2fe685602040f21418f76d278be510759",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.tar.gz.sig"
@@ -359,6 +382,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.pkg",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.pkg",
+        "sha256sum" : "9b499222cf299ef7b1af7f21684ff50ada82913f87d942953eebf058d3dbbfd2",
         "sha265sum" : "9b499222cf299ef7b1af7f21684ff50ada82913f87d942953eebf058d3dbbfd2",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_x64_mac_hotspot_17.0.4_8.pkg.sig"
@@ -377,6 +401,7 @@
       "package" : {
         "name" : "OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "19fffac89c4b8c0b4da32cae2cbd864ad9e71875aa3ab69f3a5900b6b2e16e7b",
         "sha265sum" : "19fffac89c4b8c0b4da32cae2cbd864ad9e71875aa3ab69f3a5900b6b2e16e7b",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.tar.gz.sig"
@@ -384,6 +409,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg",
+        "sha256sum" : "632e8220e4a71f73c51fe518551d8a7919eea7943339e435cd6fd61f6089cf0d",
         "sha265sum" : "632e8220e4a71f73c51fe518551d8a7919eea7943339e435cd6fd61f6089cf0d",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.4_8.pkg.sig"
@@ -402,6 +428,7 @@
       "package" : {
         "name" : "OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz",
+        "sha256sum" : "81d7cd6de1986e9afdac128e26386291eaf5d15e0521a10ec4021e2798fb6847",
         "sha265sum" : "81d7cd6de1986e9afdac128e26386291eaf5d15e0521a10ec4021e2798fb6847",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.tar.gz.sig"
@@ -409,6 +436,7 @@
       "installer" : [ {
         "name" : "OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg",
         "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg",
+        "sha256sum" : "3661dc8616cfe059597dbe2629e04c2b14f89daa37fcbd79572b1cbf62f4671a",
         "sha265sum" : "3661dc8616cfe059597dbe2629e04c2b14f89daa37fcbd79572b1cbf62f4671a",
         "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.4_8.pkg.sig"

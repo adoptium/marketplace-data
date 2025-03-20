@@ -11,6 +11,7 @@
       "package" : {
         "name" : "OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.zip",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.zip",
+        "sha256sum" : "93119d5d523705b4b419272e132aec8cb02382393a5a7c9b71915b5962c94589",
         "sha265sum" : "93119d5d523705b4b419272e132aec8cb02382393a5a7c9b71915b5962c94589",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.zip.sig"
@@ -18,6 +19,7 @@
       "installer" : [ {
         "name" : "OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.msi",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.msi",
+        "sha256sum" : "b13aea54b44802bf5caacc829e20e521659107331715aa6683e6926c67939133",
         "sha265sum" : "b13aea54b44802bf5caacc829e20e521659107331715aa6683e6926c67939133",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jdk_x64_windows_hotspot_8u342b07.msi.sig"
@@ -36,6 +38,7 @@
       "package" : {
         "name" : "OpenJDK8U-jre_x64_windows_hotspot_8u342b07.zip",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jre_x64_windows_hotspot_8u342b07.zip",
+        "sha256sum" : "45d6a063d887a202384cf05c6fe6174d45ae1fffc6c87b4c7364fcde008d2215",
         "sha265sum" : "45d6a063d887a202384cf05c6fe6174d45ae1fffc6c87b4c7364fcde008d2215",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jre_x64_windows_hotspot_8u342b07.zip.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jre_x64_windows_hotspot_8u342b07.zip.sig"
@@ -43,6 +46,7 @@
       "installer" : [ {
         "name" : "OpenJDK8U-jre_x64_windows_hotspot_8u342b07.msi",
         "link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jre_x64_windows_hotspot_8u342b07.msi",
+        "sha256sum" : "70e90ac93841ae85a966fb404343f89bf6518eac1e892eda5100da4d4433a95e",
         "sha265sum" : "70e90ac93841ae85a966fb404343f89bf6518eac1e892eda5100da4d4433a95e",
         "sha256sum_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jre_x64_windows_hotspot_8u342b07.msi.sha256.txt",
         "signature_link" : "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u342-b07.1/OpenJDK8U-jre_x64_windows_hotspot_8u342b07.msi.sig"
