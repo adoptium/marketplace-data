@@ -149,6 +149,82 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_linux_hotspot_21.0.7_6.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_aarch64_linux_hotspot_21.0.7_6.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.7_6.tar.gz",
+        "sha256sum" : "ab455a401d25e0cd20e652d2ee72e9f56beba0d9faac5a5c62c9b27a19df804b",
+        "sha265sum" : "ab455a401d25e0cd20e652d2ee72e9f56beba0d9faac5a5c62c9b27a19df804b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.7_6.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.7_6.tar.gz.sig"
+      },
+      "timestamp" : "2025-04-17T14:46:23Z",
+      "scm_ref" : "jdk-21.0.7+6_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.7+6",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.7_6.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.7_6.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.7_6.tar.gz",
+        "sha256sum" : "31dba70ba928c78c20d62049ac000f79f7a7ab11f9d9c11e703f52d60aa64f93",
+        "sha265sum" : "31dba70ba928c78c20d62049ac000f79f7a7ab11f9d9c11e703f52d60aa64f93",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.7_6.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.7_6.tar.gz.sig"
+      },
+      "timestamp" : "2025-04-17T14:46:39Z",
+      "scm_ref" : "jdk-21.0.7+6_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.7+6",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.7_6.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_s390x_linux_hotspot_21.0.7_6.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_s390x_linux_hotspot_21.0.7_6.tar.gz",
+        "sha256sum" : "24dddeebdf350d6e0bd6e68176c8eee0a4ff9a5c84efd0fd456848d7ad4c1791",
+        "sha265sum" : "24dddeebdf350d6e0bd6e68176c8eee0a4ff9a5c84efd0fd456848d7ad4c1791",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_s390x_linux_hotspot_21.0.7_6.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_s390x_linux_hotspot_21.0.7_6.tar.gz.sig"
+      },
+      "timestamp" : "2025-04-17T18:08:21Z",
+      "scm_ref" : "jdk-21.0.7+6_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.7+6",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_s390x_linux_hotspot_21.0.7_6.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_s390x_linux_hotspot_21.0.7_6.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.7_6.tar.gz",
+        "sha256sum" : "216edbccab2d677639c90d2cb09dfa39c257788a62b8b83d879528c447b9ad33",
+        "sha265sum" : "216edbccab2d677639c90d2cb09dfa39c257788a62b8b83d879528c447b9ad33",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.7_6.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.7_6.tar.gz.sig"
+      },
+      "timestamp" : "2025-04-17T18:08:43Z",
+      "scm_ref" : "jdk-21.0.7+6_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.7+6",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_s390x_linux_hotspot_21.0.7_6.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
