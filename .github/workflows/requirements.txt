@@ -1,2 +1,2 @@
 python_gnupg==0.5.0
-Requests==2.32.2
+Requests==2.32.4
