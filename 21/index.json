@@ -1,5 +1,5 @@
 {
   "schema_version" : "1.0.0",
   "indexes" : [ ],
-  "releases" : [ "jdk_21_0_9_10.json", "jdk_21_0_8_9.json", "jdk_21_0_7_6.json", "jdk_21_0_6_7.json", "jdk_21_0_5_11.json", "jdk_21_0_4_7.json", "jdk_21_0_3_9.json", "jdk_21_0_2_13.json", "jdk_21_0_1_12.json", "jdk_21_35.json" ]
+  "releases" : [ "jdk_21_0_10_7.json", "jdk_21_0_9_10.json", "jdk_21_0_8_9.json", "jdk_21_0_7_6.json", "jdk_21_0_6_7.json", "jdk_21_0_5_11.json", "jdk_21_0_4_7.json", "jdk_21_0_3_9.json", "jdk_21_0_2_13.json", "jdk_21_0_1_12.json", "jdk_21_35.json" ]
 }
