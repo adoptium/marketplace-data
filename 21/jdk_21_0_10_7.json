@@ -155,6 +155,44 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_ppc64le_linux_hotspot_21.0.10_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "riscv64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_riscv64_linux_hotspot_21.0.10_7.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.10_7.tar.gz",
+        "sha256sum" : "02cf763836c14bad4d689eb3b4efd691657de753dba07193cd1fb8691c8fe7b8",
+        "sha265sum" : "02cf763836c14bad4d689eb3b4efd691657de753dba07193cd1fb8691c8fe7b8",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.10_7.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.10_7.tar.gz.sig"
+      },
+      "timestamp" : "2026-01-27T17:15:13Z",
+      "scm_ref" : "jdk-21.0.10+7_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.10+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jre_riscv64_linux_hotspot_21.0.10_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "riscv64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.10_7.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.10_7.tar.gz",
+        "sha256sum" : "a57fd486c3c24ed615eb91ef9421ddd38c720e7398df5a161872fb26ad825936",
+        "sha265sum" : "a57fd486c3c24ed615eb91ef9421ddd38c720e7398df5a161872fb26ad825936",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.10_7.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.10_7.tar.gz.sig"
+      },
+      "timestamp" : "2026-01-27T17:15:04Z",
+      "scm_ref" : "jdk-21.0.10+7_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.10+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.10%2B7/OpenJDK21U-jdk_riscv64_linux_hotspot_21.0.10_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
