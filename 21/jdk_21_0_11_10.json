@@ -1,0 +1,99 @@
+{
+  "releases" : [ {
+    "release_link" : "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.11%2B10",
+    "release_name" : "jdk-21.0.11+10",
+    "last_updated_timestamp" : "2026-04-23T06:32:33Z",
+    "binaries" : [ {
+      "os" : "alpine_linux",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
+        "sha256sum" : "c8d63598d1dc0a656033515ed258bd6db37506a05407d9f65cd23b95c21027b5",
+        "sha265sum" : "c8d63598d1dc0a656033515ed258bd6db37506a05407d9f65cd23b95c21027b5",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz.sig"
+      },
+      "timestamp" : "2026-04-23T06:33:14Z",
+      "scm_ref" : "jdk-21.0.11+10_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.11+10",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_21.0.11_10.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz",
+        "sha256sum" : "33399db5fb4f542df36a706d6642a3ba1fab3d247da707273a11ef29e39f0705",
+        "sha265sum" : "33399db5fb4f542df36a706d6642a3ba1fab3d247da707273a11ef29e39f0705",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tar.gz.sig"
+      },
+      "timestamp" : "2026-04-23T06:32:43Z",
+      "scm_ref" : "jdk-21.0.11+10_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.11+10",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_aarch64_alpine-linux_hotspot_21.0.11_10.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jdk_x64_linux_hotspot_21.0.11_10.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_linux_hotspot_21.0.11_10.tar.gz",
+        "sha256sum" : "4b2220e232a97997b436ca6ab15cbf70171ecff52958a46159dfa5a8c44ca4de",
+        "sha265sum" : "4b2220e232a97997b436ca6ab15cbf70171ecff52958a46159dfa5a8c44ca4de",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_linux_hotspot_21.0.11_10.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_linux_hotspot_21.0.11_10.tar.gz.sig"
+      },
+      "timestamp" : "2026-04-23T19:53:14Z",
+      "scm_ref" : "jdk-21.0.11+10_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.11+10",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_linux_hotspot_21.0.11_10.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK21U-jre_x64_linux_hotspot_21.0.11_10.tar.gz",
+        "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_x64_linux_hotspot_21.0.11_10.tar.gz",
+        "sha256sum" : "e5038aae3ca9ff670bc696496b0728dbd23d280026bad30291cb919221ecfdcb",
+        "sha265sum" : "e5038aae3ca9ff670bc696496b0728dbd23d280026bad30291cb919221ecfdcb",
+        "sha256sum_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_x64_linux_hotspot_21.0.11_10.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_x64_linux_hotspot_21.0.11_10.tar.gz.sig"
+      },
+      "timestamp" : "2026-04-23T19:53:27Z",
+      "scm_ref" : "jdk-21.0.11+10_adopt",
+      "openjdk_scm_ref" : "jdk-21.0.11+10",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_x64_linux_hotspot_21.0.11_10.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    } ],
+    "vendor" : "adoptium",
+    "openjdk_version_data" : {
+      "major" : 21,
+      "minor" : 0,
+      "security" : 11,
+      "patch" : null,
+      "pre" : null,
+      "build" : 10,
+      "optional" : "LTS",
+      "openjdk_version" : "21.0.11+10-LTS"
+    },
+    "source" : {
+      "name" : "OpenJDK21U-jdk-sources_21.0.11_10.tar.gz",
+      "link" : "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk-sources_21.0.11_10.tar.gz"
+    }
+  } ]
+}
