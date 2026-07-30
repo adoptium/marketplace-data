@@ -323,6 +323,60 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.20_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.zip",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.zip",
+        "sha256sum" : "7fe2324cc5901a89aaa0e8dc232075c59f2aca5270c533bdb1b861a5274af834",
+        "sha265sum" : "7fe2324cc5901a89aaa0e8dc232075c59f2aca5270c533bdb1b861a5274af834",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.msi",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.msi",
+        "sha256sum" : "45ca8db42fb8bbfbf35b68121cf74e1f9fe36ba982b59d38f0da7802902fbace",
+        "sha265sum" : "45ca8db42fb8bbfbf35b68121cf74e1f9fe36ba982b59d38f0da7802902fbace",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.msi.sig"
+      } ],
+      "timestamp" : "2026-07-29T08:49:58Z",
+      "scm_ref" : "jdk-17.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "windows",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.zip",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.zip",
+        "sha256sum" : "418497be5cf585bdd2203d6486a565d66d3f5e992d5630d45104cb873fab8122",
+        "sha265sum" : "418497be5cf585bdd2203d6486a565d66d3f5e992d5630d45104cb873fab8122",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.zip.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.zip.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.msi",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.msi",
+        "sha256sum" : "1a8ec6023937b94e26691a2369e9f99dfeae3a25351a7e4f9320828aae481898",
+        "sha265sum" : "1a8ec6023937b94e26691a2369e9f99dfeae3a25351a7e4f9320828aae481898",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.msi.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.msi.sig"
+      } ],
+      "timestamp" : "2026-07-29T08:50:23Z",
+      "scm_ref" : "jdk-17.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
