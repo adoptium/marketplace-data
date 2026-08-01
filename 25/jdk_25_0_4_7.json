@@ -431,6 +431,44 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4_7.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "aarch64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+        "sha256sum" : "c9a48a33d65f308c6066bbfdfc0d4b9143793588a0def79df219760b25bb8b84",
+        "sha265sum" : "c9a48a33d65f308c6066bbfdfc0d4b9143793588a0def79df219760b25bb8b84",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz.sig"
+      },
+      "timestamp" : "2026-07-31T12:18:14Z",
+      "scm_ref" : "jdk-25.0.4+7_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jre_aarch64_alpine-linux_hotspot_25.0.4_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "alpine_linux",
+      "architecture" : "aarch64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz",
+        "sha256sum" : "3d1c5c7877e320c2cff8154cfca9af948089912b6efc6123bb21726b7055bc62",
+        "sha265sum" : "3d1c5c7877e320c2cff8154cfca9af948089912b6efc6123bb21726b7055bc62",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tar.gz.sig"
+      },
+      "timestamp" : "2026-07-31T12:17:51Z",
+      "scm_ref" : "jdk-25.0.4+7_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4+7",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4%2B7/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.4_7.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
