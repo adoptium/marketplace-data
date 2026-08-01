@@ -431,6 +431,44 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.20_8.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20_8.tar.gz",
+        "sha256sum" : "b3eebe8aa9bb568350f187908e09ced2e7e7f9134ca2708b63b1ebdbdfcd6a5f",
+        "sha265sum" : "b3eebe8aa9bb568350f187908e09ced2e7e7f9134ca2708b63b1ebdbdfcd6a5f",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20_8.tar.gz.sig"
+      },
+      "timestamp" : "2026-07-31T14:13:18Z",
+      "scm_ref" : "jdk-17.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jdk_ppc64_aix_hotspot_17.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_ppc64_aix_hotspot_17.0.20_8.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.20_8.tar.gz",
+        "sha256sum" : "5f8963cb94f7a9a9e79c8995a83b5c2c5ee08f75e0ee3418f8b3d95f7b735873",
+        "sha265sum" : "5f8963cb94f7a9a9e79c8995a83b5c2c5ee08f75e0ee3418f8b3d95f7b735873",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.20_8.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.20_8.tar.gz.sig"
+      },
+      "timestamp" : "2026-07-31T14:12:57Z",
+      "scm_ref" : "jdk-17.0.20+8_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.20+8",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20%2B8/OpenJDK17U-jre_ppc64_aix_hotspot_17.0.20_8.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
