@@ -317,6 +317,158 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.4.1_1.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "26af224b439e3a020050c68de55fb373b7049603f82e7f87f1b3e221f09c2b3b",
+        "sha265sum" : "26af224b439e3a020050c68de55fb373b7049603f82e7f87f1b3e221f09c2b3b",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T09:54:32Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_s390x_linux_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "s390x",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "012d4fe2be909a80c64675ab579877dd9b1db1eff6c7b327eed87b907706f819",
+        "sha265sum" : "012d4fe2be909a80c64675ab579877dd9b1db1eff6c7b327eed87b907706f819",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T09:54:48Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_s390x_linux_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "548a620c40090680f5bfc8b03feebede610fa43eee21d1b4c9cac616dbcb76de",
+        "sha265sum" : "548a620c40090680f5bfc8b03feebede610fa43eee21d1b4c9cac616dbcb76de",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T09:56:03Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64_aix_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "aix",
+      "architecture" : "ppc64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "44e79e53c3312bbab922653c01ed00310c1380884e912041a7fce9e1f704fb83",
+        "sha265sum" : "44e79e53c3312bbab922653c01ed00310c1380884e912041a7fce9e1f704fb83",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T09:55:57Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64_aix_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "riscv64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "8dbef2b12ceaecec9b5f00d7f568309b7e3525137777736abfc65900c054ccf9",
+        "sha265sum" : "8dbef2b12ceaecec9b5f00d7f568309b7e3525137777736abfc65900c054ccf9",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T12:06:14Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_riscv64_linux_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "riscv64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jre_riscv64_linux_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_riscv64_linux_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "dcf12c8c5e0b49bbae7978f42ca6671e10671db7509f406a0f0e65e3b3dc65a9",
+        "sha265sum" : "dcf12c8c5e0b49bbae7978f42ca6671e10671db7509f406a0f0e65e3b3dc65a9",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_riscv64_linux_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_riscv64_linux_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T12:05:39Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_riscv64_linux_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "ppc64le",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jre_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "4ab6eca3e092fd63afe8f34b119f169fd434a080c96f8d37f46687389518c4c5",
+        "sha265sum" : "4ab6eca3e092fd63afe8f34b119f169fd434a080c96f8d37f46687389518c4c5",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T14:21:32Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jre_ppc64le_linux_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "linux",
+      "architecture" : "ppc64le",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK25U-jdk_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz",
+        "link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz",
+        "sha256sum" : "b508ca140557322c73da4278d21004b22480b894ffdc67a8795d7814afd8775c",
+        "sha265sum" : "b508ca140557322c73da4278d21004b22480b894ffdc67a8795d7814afd8775c",
+        "sha256sum_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64le_linux_hotspot_25.0.4.1_1.tar.gz.sig"
+      },
+      "timestamp" : "2026-08-25T14:22:11Z",
+      "scm_ref" : "jdk-25.0.4.1+1_adopt",
+      "openjdk_scm_ref" : "jdk-25.0.4.1+1",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_ppc64le_linux_hotspot_25.0.4.1_1.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
