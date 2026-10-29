@@ -285,6 +285,60 @@
       "distribution" : "temurin",
       "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_s390x_linux_hotspot_17.0.21_9.tap.zip",
       "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "x64",
+      "image_type" : "jdk",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.tar.gz",
+        "sha256sum" : "868f5c672b3389fdbe48e44f94ae170f01668b1401360944fc7159d7cc9772cc",
+        "sha265sum" : "868f5c672b3389fdbe48e44f94ae170f01668b1401360944fc7159d7cc9772cc",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.pkg",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.pkg",
+        "sha256sum" : "de08f77e8a715abadf0498cbca8255a47c63c6a9ee2ca27d26efee2640c0a5f8",
+        "sha265sum" : "de08f77e8a715abadf0498cbca8255a47c63c6a9ee2ca27d26efee2640c0a5f8",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.pkg.sig"
+      } ],
+      "timestamp" : "2026-10-28T13:17:51Z",
+      "scm_ref" : "jdk-17.0.21+9_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.21+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.21_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
+    }, {
+      "os" : "mac",
+      "architecture" : "x64",
+      "image_type" : "jre",
+      "jvm_impl" : "hotspot",
+      "package" : {
+        "name" : "OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.tar.gz",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.tar.gz",
+        "sha256sum" : "890214eb4d6c88dc06f990d5a6a3b72b91d5dffab6a0a6d8cffb98468bf26181",
+        "sha265sum" : "890214eb4d6c88dc06f990d5a6a3b72b91d5dffab6a0a6d8cffb98468bf26181",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.tar.gz.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.tar.gz.sig"
+      },
+      "installer" : [ {
+        "name" : "OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.pkg",
+        "link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.pkg",
+        "sha256sum" : "4f979df4a6ad9fff198cf6d956a9e6a4f38dd8b42f6597958d99ad37081301b6",
+        "sha265sum" : "4f979df4a6ad9fff198cf6d956a9e6a4f38dd8b42f6597958d99ad37081301b6",
+        "sha256sum_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.pkg.sha256.txt",
+        "signature_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.pkg.sig"
+      } ],
+      "timestamp" : "2026-10-28T13:18:15Z",
+      "scm_ref" : "jdk-17.0.21+9_adopt",
+      "openjdk_scm_ref" : "jdk-17.0.21+9",
+      "distribution" : "temurin",
+      "aqavit_results_link" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.21_9.tap.zip",
+      "tck_affidavit_link" : "https://adoptium.net/temurin/tck-affidavit/"
     } ],
     "vendor" : "adoptium",
     "openjdk_version_data" : {
