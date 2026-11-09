@@ -40,7 +40,7 @@ jobs:
       - name: Build Marketplace
         uses: ./api/.github/actions/build-marketplace
         with:
-          RUN_TESTS: false
+          SKIP_TESTS: true
           WORKING_DIRECTORY: api
 
       - name: Validate data
